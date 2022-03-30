@@ -7,6 +7,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  margin: 0;
+  padding: 0;
 }
 
 #wrapper {
@@ -117,6 +119,14 @@ p.important {
   .column {
     /* width: 100%; */
     flex: 100%;
+  }
+
+  .column .column-header {
+    padding: 20px;
+  }
+
+  .column .column-content {
+    padding: 20px;
   }
 }
 
