@@ -87,6 +87,8 @@ blockquote {
 
 ul {
   line-height: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 p.important {
@@ -109,15 +111,17 @@ p.important {
   grid-row-gap: 5px;
 }
 
-
+code {
+  font-family: 'Courier New', Courier, monospace;
+  padding: 5px;
+  background-color: #ddd;
+  border-radius: 4px;
+  line-height: 27px;
+}
 
 @media all and (max-width: 1023px) {
-  body {
-    /* font-size: 18px; */
-  }
 
   .column {
-    /* width: 100%; */
     flex: 100%;
   }
 
