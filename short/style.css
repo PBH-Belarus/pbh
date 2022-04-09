@@ -9,6 +9,7 @@ body {
   font-size: 14px;
   margin: 0;
   padding: 0;
+  background-color: #fdfdfd;
 }
 
 #wrapper {
@@ -18,8 +19,6 @@ body {
 
 .column {
   flex: 50%;
-  /* width: 50%; */
-  /* border: 1px solid red; */
 }
 
 a {
@@ -29,7 +28,7 @@ a {
 }
 
 .column .column-header {
-  /* height: 100px; */
+  color: #fff;
   background-color: var(--secondary-color);
   padding: 30px;
   font-size: 1.25rem;
@@ -46,8 +45,8 @@ a {
 
 .column-content .grid-container {
   display: grid;
-  grid-template-columns: 10px auto;
-  grid-gap: 20px 30px;
+  grid-template-columns: 40px auto;
+  grid-gap: 20px 10px;
 }
 
 .grid-container.grid-transport {
@@ -64,10 +63,19 @@ a {
   font-weight: 700;
   padding-bottom: 10px;
   font-style: normal;
+  font-size: 1.1em;
 }
 
 .text .description {
   font-style: italic;
+}
+
+.text .description p:first-child {
+  margin-top: 0;
+}
+
+.text .description p:last-child {
+  margin-bottom: 0;
 }
 
 blockquote {
@@ -118,6 +126,15 @@ code {
   border-radius: 4px;
   line-height: 27px;
 }
+
+#bottom {
+  padding: 25px;
+  text-align: center;
+  border-top: 3px solid #cecece;
+  background-color: #efefef;
+  font-size: 0.9em;
+}
+
 
 @media all and (max-width: 1023px) {
 
